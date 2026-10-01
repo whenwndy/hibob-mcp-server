@@ -145,7 +145,6 @@
       "created_at": "2022-02-14T09:00:00Z"
     }
   ],
-
   "benefits_enrollment": [
     {
       "id": "BEN-001",
@@ -155,9 +154,9 @@
       "plan_name": "Blue Shield PPO Gold",
       "carrier": "Blue Shield of CA",
       "coverage_tier": "employee_only",
-      "monthly_premium_usd": 420.00,
-      "employer_contribution_usd": 336.00,
-      "employee_contribution_usd": 84.00,
+      "monthly_premium_usd": 420.0,
+      "employer_contribution_usd": 336.0,
+      "employee_contribution_usd": 84.0,
       "enrollment_status": "active",
       "effective_date": "2026-10-01",
       "enrollment_date": "2026-09-02",
@@ -171,9 +170,9 @@
       "plan_name": "Delta Dental PPO",
       "carrier": "Delta Dental",
       "coverage_tier": "employee_only",
-      "monthly_premium_usd": 28.00,
-      "employer_contribution_usd": 22.40,
-      "employee_contribution_usd": 5.60,
+      "monthly_premium_usd": 28.0,
+      "employer_contribution_usd": 22.4,
+      "employee_contribution_usd": 5.6,
       "enrollment_status": "active",
       "effective_date": "2026-10-01",
       "enrollment_date": "2026-09-02",
@@ -185,11 +184,11 @@
       "employee_name": "Devon Harris",
       "plan_type": "vision",
       "plan_name": "VSP Signature Plan",
-      "carrier": "VSP Vision",
+      "carrier": "ClearVision Care",
       "coverage_tier": "employee_only",
-      "monthly_premium_usd": 12.00,
-      "employer_contribution_usd": 9.60,
-      "employee_contribution_usd": 2.40,
+      "monthly_premium_usd": 12.0,
+      "employer_contribution_usd": 9.6,
+      "employee_contribution_usd": 2.4,
       "enrollment_status": "active",
       "effective_date": "2026-10-01",
       "enrollment_date": "2026-09-02",
@@ -203,9 +202,9 @@
       "plan_name": "Blue Shield HMO Select",
       "carrier": "Blue Shield of CA",
       "coverage_tier": "employee_plus_spouse",
-      "monthly_premium_usd": 680.00,
-      "employer_contribution_usd": 544.00,
-      "employee_contribution_usd": 136.00,
+      "monthly_premium_usd": 680.0,
+      "employer_contribution_usd": 544.0,
+      "employee_contribution_usd": 136.0,
       "enrollment_status": "active",
       "effective_date": "2023-04-01",
       "enrollment_date": "2023-03-15",
@@ -219,24 +218,23 @@
       "plan_name": "Blue Shield PPO Gold",
       "carrier": "Blue Shield of CA",
       "coverage_tier": "family",
-      "monthly_premium_usd": 1050.00,
-      "employer_contribution_usd": 840.00,
-      "employee_contribution_usd": 210.00,
+      "monthly_premium_usd": 1050.0,
+      "employer_contribution_usd": 840.0,
+      "employee_contribution_usd": 210.0,
       "enrollment_status": "active",
       "effective_date": "2024-02-01",
       "enrollment_date": "2024-01-08",
       "notes": ""
     }
   ],
-
   "pay_schedules": [
     {
       "id": "PAY-001",
       "employee_id": "EMP-001",
       "employee_name": "Devon Harris",
       "pay_frequency": "bi_weekly",
-      "annual_salary_usd": 130000.00,
-      "pay_rate_usd": 5000.00,
+      "annual_salary_usd": 130000.0,
+      "pay_rate_usd": 5000.0,
       "start_date": "2026-09-02",
       "first_pay_date": "2026-09-12",
       "pay_periods_per_year": 26,
@@ -247,8 +245,8 @@
         "period_end": "2026-09-12",
         "working_days_in_period": 10,
         "days_worked": 9,
-        "full_period_pay": 5000.00,
-        "prorated_pay": 4500.00,
+        "full_period_pay": 5000.0,
+        "prorated_pay": 4500.0,
         "proration_explanation": "Devon started Sept 2. Pay period covers Aug 30–Sept 12 (10 working days). Devon worked 9 of 10 days. Prorated pay: $5,000 × (9/10) = $4,500. This is correct — no error."
       }
     },
@@ -257,7 +255,7 @@
       "employee_id": "EMP-002",
       "employee_name": "Priya Kapoor",
       "pay_frequency": "bi_weekly",
-      "annual_salary_usd": 180000.00,
+      "annual_salary_usd": 180000.0,
       "pay_rate_usd": 6923.08,
       "start_date": "2023-03-15",
       "first_pay_date": "2023-03-24",
@@ -271,7 +269,7 @@
       "employee_id": "EMP-003",
       "employee_name": "Jordan Chen",
       "pay_frequency": "bi_weekly",
-      "annual_salary_usd": 155000.00,
+      "annual_salary_usd": 155000.0,
       "pay_rate_usd": 5961.54,
       "start_date": "2024-01-08",
       "first_pay_date": "2024-01-19",
@@ -281,7 +279,6 @@
       "proration_calculation": null
     }
   ],
-
   "onboarding_tasks": [
     {
       "id": "TASK-001",
@@ -428,7 +425,6 @@
       "notes": "Review team org chart and Slack directory; this task is overdue"
     }
   ],
-
   "time_off": [
     {
       "id": "PTO-001",
@@ -470,7 +466,6 @@
       "notes": "3 personal days granted at hire. No additional accrual."
     }
   ],
-
   "key_dates": [
     {
       "id": "KD-001",
@@ -518,7 +513,6 @@
       "is_upcoming": true
     }
   ],
-
   "hr_policies": [
     {
       "id": "POL-001",
